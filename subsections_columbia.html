@@ -1,109 +1,103 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>QueerCare @ Columbia</title>
-        <link rel="stylesheet" href="./subsection_basic_styles.css">
-        <link rel="icon" href="./favicon.ico" type="image/x-icon">
-        <style>
-            .go_back_button{
-                position: relative;
-                background-color: aqua; 
-                border-radius: 10px;
-                left: 50%;
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-450%, 50%)
-            }
-            .DV_personal_experience_button{
-                position: relative;
-                background-color: aqua; 
-                border-radius: 10px;
-                left: 50%;
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%)
-            }
-        </style>
-    </head>
-    <main>
-        <div class = "subsections_columbia">
-            <button class = "go_back_button" type="button" onclick="window.open('index.html', '_self');">
-                Click to go back a page
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QueerCare @ Columbia</title>
+    <link rel="stylesheet" href="./subsection_basic_styles.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<main>
+    <div id="subsections_columbia">
+        <button id="go_back_button" type="button" onclick="window.open('index.html', '_self');">
+            Click to go back a page
+        </button>
+    </div>
+<!-- Financial Aid Section -->
+    <div id="QC_columbia_financial_aid">
+        <h1 id="QC_columbia_financial_aid_heading"><u>Financial Aid</u></h1>
+        <ul>
+            <li>Applying for FAFSA and CSS as an unaccompanied homeless
+                youth and or/ victim of domestic violence
+                <a href="https://studentaid.gov/apply-for-aid/fafsa/filling-out/homeless" target="_blank">
+                    at Columbia
+                </a>
+            </li><br>
+            <li>Getting the student contribution waived</li><br>
+            <li>Share personal experience. Share variations in
+                how Columbia has approached this in the past.</li><br>
+        </ul>
+    </div>
+<!-- Domestic Violence Section -->
+    <div id="QC_columbia_domestic_violence">
+        <h1 id="QC_columbia_domestic_violence_heading"><u>Domestic Violence</u></h1>
+        <ul>
+            <button
+                    onclick="window.open('https://www.health.columbia.edu/content/temporary-order-protection', '_blank');"
+                    id="DV_personal_experience_site_button">Columbia SVR - Restraining Order Temporary Site.</button>
+            
+            <p id="DV_personal_experience_site_button_info">Can help with online Orders of Protection</br>
+                Means students do not have to go to a courthouse to file a temporary petition</br>
+                Students WILL have to go to the courthouse for the trial/hearing for the final court order. </br>
+                Sometimes accommodations will be made to have the hearing be virtual e.g. if abuser lives in a different
+                state.
+            </p><br>
+            <button id="DV_personal_experience_button" type="button"
+                onclick="window.open('DV_personal_experience.html', '_self');">
+                Learn from our personal experiences
             </button>
-        </div>
+            <br>
+        </ul>
+    </div>
+<!-- Homelessness Section -->
+    <div id="QC_columbia_homelessness">
+        <h1 id="QC_columbia_homelessness_heading"><u>Homelessness</u></h1>
+        <ul>
+            <li>Office of Student and Family Support</li><br>
+            <li>Food Pantry @ Columbia</li><br>
+            <li>Resources (Housing Equity Project, 116th Initiative, social welfare)</li><br>
+            <li>Share personal experience</li>
+        </ul>
+    </div>
+<!-- LGBTQ Section-->
+    <div id="QC_columbia_LGBT+">
+        <h1 id="QC_columbia_LGBT_heading"><u>LGBT+@Columbia</u></h1>
+        <h2 id="QC_columbia_LGBT_trans_heading">Transgender</h2>
+        <ul>
+            <li>Updating name and gender with Columbia</li><br>
+            <li>Talk about places where people WILL be outed, no matter the preferred
+                name they use (specifically housing)</li><br>
+            <li>Talk about the process of getting medication at Columbia.
+            </li><br>
+            <li>Talk about the process of getting surgery. (Requesting Letters from providers at Columbia)
+            </li><br>
+            <li>Talk about Aetna Student Health Insurance. What they do and do not cover. Could share issues with
+                revision.
+            </li><br>
+            <li>Share personal experience.
+            </li><br>
+        </ul>
+        <h2 id="QC_columbia_LGBT_GBQA_heading">Gay, Bi, Queer, Asexual, +</h2>
+        <ul>
+            <li>Referrals to DV, homelessness, and Finaid Resources
+            </li><br>
+            <li>Share Resources/Clubs at Columbia
+            </li><br>
+        </ul>
+    </div>
+<!-- CU Disability Section -->
+    <div id="QC_columbia_disability">
+        <h1 id="QC_columbia_disability_heading"><u>Disability</u></h1>
+        <ul>
+            <li>Process of Applying for Disability Accomodations/Intake Process</li><br>
+            <li>Exam/Note Accommodations/ESA/Service Animals Accommodations</li><br>
+            <li>Resources</li><br>
+            <li>Share personal experience</li>
+        </ul>
+    </div>
 
-        <div class="QC_columbia_financial_aid">
-            <h1><u>Financial Aid</u></h1>
-            <ul>
-                <li>Applying for FAFSA and CSS as an unaccompanied homeless 
-                    youth and or/ victim of domestic violence 
-                    <a href="https://studentaid.gov/apply-for-aid/fafsa/filling-out/homeless" target="_blank">
-                        at Columbia
-                    </a>
-                </li><br>
-                <li>Getting the student contribution waived</li><br>
-                <li>Share personal experience. Share variations in 
-                    how Columbia has approached this in the past.</li><br>
-            </ul>
-        </div>
+</main>
 
-        <div class="QC_columbia_domestic_violence">
-            <h1 ><u>Domestic Violence</u></h1>
-            <ul>
-                <li>Columbia SVR - Restraining Order Temporary Site.</li>
-                <li>SVR in general  - how it operates, what the process of an intake is like, etc</li><br>
-                <button class = "DV_personal_experience_button" type="button" onclick="window.open('DV_personal_experience.html', '_self');">
-                    Learn from our personal experiences
-                </button>
-                <br>
-            </ul>
-        </div>
-
-        <div class="QC_columbia_homelessness">
-            <h1><u>Homelessness</u></h1>
-            <ul>
-                <li>Office of Student and Family Support</li><br>
-                <li>Food Pantry @ Columbia</li><br>
-                <li>Resources (Housing Equity Project, 116th Initiative, social welfare)</li><br>
-                <li>Share personal experience</li>
-            </ul>
-        </div>
-
-        <div class="QC_columbia_LGBT+">
-            <h1><u>LGBT+@Columbia</u></h1>
-            <h2>Transgender</h2>
-            <ul>
-                <li>Updating name and gender with Columbia</li><br>
-                <li>Talk about places where people WILL be outed, no matter the preferred
-                    name they use (specifically housing)</li><br>
-                <li>Talk about the process of getting medication at Columbia.
-                </li><br>
-                <li>Talk about the process of getting surgery. (Requesting Letters from providers at Columbia)
-                </li><br>
-                <li>Talk about Aetna Student Health Insurance. What they do and do not cover. Could share issues with revision.
-                </li><br>
-                <li>Share personal experience.
-                </li><br>
-            </ul>
-            <h2>Gay, Bi, Queer, Asexual, +</h2>
-            <ul>
-                <li>Referrals to DV, homelessness, and Finaid Resources
-                </li><br>
-                <li>Share Resources/Clubs at Columbia
-                </li><br>
-            </ul>
-        </div>
-
-        <div class="QC_columbia_disability">
-            <h1><u>Disability</u></h1>
-            <ul>
-                <li>Process of Applying for Disability Accomodations/Intake Process</li><br>
-                <li>Exam/Note Accommodations/ESA/Service Animals Accommodations</li><br>
-                <li>Resources</li><br>
-                <li>Share personal experience</li>
-            </ul>
-        </div>
-
-      </main>
 </html>
