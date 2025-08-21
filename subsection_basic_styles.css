@@ -2,9 +2,11 @@
     position: relative ;
     background-color: aqua;
     border-radius: 10px;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-450%, 50%)
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-450%, 50%) */
+}
+#subsections_columbia{
+justify-content: center;
 }
 #QC_columbia_domestic_violence_heading{
     position: relative;
