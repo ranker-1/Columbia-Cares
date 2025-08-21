@@ -7,15 +7,9 @@
         <title>QueerCare @ Columbia</title>
         <link rel="stylesheet" href="./subsection_basic_styles.css">
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
+        <!-- think this is here bc there wasnt -->
         <style>    
-            .go_back_button {
-                position: relative;
-                background-color: aqua; 
-                border-radius: 10px;
-                left: 50%;
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-400%, 50%)
-            }
+
             .dv_resource_button{
                 position: relative;
                 background-color: aqua; 
@@ -29,9 +23,11 @@
     <main>
         <body style="background-color: antiquewhite;">
         <div class = "QC_columbia_link">
-            <button type="button" class = "go_back_button" onclick="window.open('subsections_columbia.html', '_self');">
+            <div class="subsections_columbia">
+            <button type="button" class="go_back_button" onclick="history.back()">
                 Click to go back to Sections
             </button>
+            </div>
         </div>
 
         <div class="1_dv_experience">
