@@ -1,3 +1,17 @@
 #dv_resources_links_header{
     text-align: center;
 }
+
+.subsections_columbia{
+  display: flex;
+  justify-content: left;  /* horizontal center */
+  align-items: center;      /* vertical center if you give it height */
+  margin: 20px ;           /* spacing from other elements */
+}
+.go_back_button {
+    position: relative ;
+    background-color: aqua;
+    border-radius: 10px;
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-450%, 50%) */
+}
