@@ -6,7 +6,10 @@
     transform: translate(-450%, 50%) */
 }
 #subsections_columbia{
-justify-content: left;
+  display: flex;
+  justify-content: center;  /* horizontal center */
+  align-items: center;      /* vertical center if you give it height */
+  margin: 20px 0;           /* spacing from other elements */
 }
 #QC_columbia_domestic_violence_heading{
     position: relative;
