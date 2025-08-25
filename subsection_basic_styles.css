@@ -15,68 +15,124 @@
     transform: translate(-50%, 50%)
 }
 
-.subsections_columbia{
-  display: flex;
-  justify-content: left;  /* horizontal center */
-  align-items: center;      /* vertical center if you give it height */
-  margin: 20px ;           /* spacing from other elements */
+.subsections_columbia {
+  display:flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* vertical alignment if parent has height */
+  align-items: center;     /* horizontal center */
+  margin: 20px;
 }
 #QC_columbia_domestic_violence_heading{
-    position: relative;
-    left: 40%;
-    
+        
+}
+#QC_columbia_domestic_violence{
+  display: flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* vertical alignment if parent has height */
+  align-items: center;     /* horizontal center */
+  margin: 20px;
 }
 #QC_columbia_financial_aid_heading{
     position: relative;
-    left: 40%;
+}
+#QC_columbia_LGBT_plus{
+  display: flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* vertical alignment if parent has height */
+  align-items: center;     /* horizontal center */
+  margin: 20px;
+}
+#QC_columbia_homelessness{
+  display: flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* vertical alignment if parent has height */
+  align-items: center;     /* horizontal center */
+  margin: 20px;
 }
 #QC_columbia_homelessness_heading{
-    position: relative;
-    left: 40%;
+
 }
 #QC_columbia_LGBT_heading{
     position: relative;
-    left: 40%;    
 }
 #QC_columbia_LGBT_trans_heading{
     position: relative;
-    left: 40%;
 }
 #QC_columbia_LGBT_GBQA_heading{
     position: relative;
-    left: 40%;
+}
+#QC_columbia_disability{
+  display: flex;
+  flex-direction: column;  /* stack elements vertically */
+  justify-content: center; /* vertical alignment if parent has height */
+  align-items: center;     /* horizontal center */
+  margin: 20px;
 }
 #QC_columbia_disability_heading{
-    position: relative;
-    left: 40%;
+
 }
 #LGBT_name_change_button {
     position: relative;
     background-color: aqua;
-    border-radius: 10px;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    border-radius: 5px;
+    border-color: gray;
 }
 #DV_personal_experience_button {
-    position: relative;
+    /* position: relative; */
     background-color: aqua;
     border-radius: 10px;
-    left: 50%;
+    /* left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%) */
 }
 #DV_personal_experience_site_button{
-    position: relative;
+    /* position: relative; */
     background-color: aqua;
     border-radius: 10px;
-    left: 50%;
+    /* left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 
 #DV_personal_experience_site_button_info{
-    position: relative;
-    left:25%;
     font-style: italic;
+    text-align: center;
+}
+.qc_alert__danger{
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    justify-content: center; /* vertical alignment if parent has height */
+    align-items: center;     /* horizontal center */
+    margin: 20px;
+}
+.qc_article{
+    text-align: center;
+}
+
+.qc_header{
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    justify-content: center; /* vertical alignment if parent has height */
+    align-items: center;     /* horizontal center */
+    margin: 20px;
+}
+.qc_section{
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    justify-content: center; /* vertical alignment if parent has height */
+    align-items: center;     /* horizontal center */
+    margin: 20px;
+}
+
+#QC_columbia_financial_aid{
+    display: flex;
+    flex-direction: column;  /* stack elements vertically */
+    justify-content: center; /* vertical alignment if parent has height */
+    align-items: center;     /* horizontal center */
+    margin: 20px;
+}
+#disabilities_button{
+    position: relative ;
+    background-color: aqua;
+    border-radius: 10px;
 }

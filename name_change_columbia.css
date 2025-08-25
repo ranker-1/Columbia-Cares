@@ -1,0 +1,26 @@
+.outing_places_section{
+    background-color: paleturquoise;
+}
+.update_gender_section{
+    background-color: palegreen;
+}
+.update_name_section_columbia{
+    background-color: palegoldenrod;
+}
+.entire_page_update_name_gender_columbia{
+    background-color:bisque;
+
+}
+.go_back_button_fromsubsections{
+    position: relative ;
+    background-color: aqua;
+    border-radius: 10px;
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-450%, 50%) */
+}
+.button_fromsubsections_columbia{
+  display: flex;
+  justify-content: left;  /* horizontal center */
+  align-items: center;      /* vertical center if you give it height */
+  margin: 10px ;           /* spacing from other elements */
+}

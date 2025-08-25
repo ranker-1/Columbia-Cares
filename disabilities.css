@@ -1,0 +1,46 @@
+.button_fromsubsections_columbia{
+  display: flex;
+  justify-content: left;  /* horizontal center */
+  align-items: center;      /* vertical center if you give it height */
+  margin: 20px ;           /* spacing from other elements */
+}
+.go_back_button_fromsubsections {
+    position: relative ;
+    background-color: aqua;
+    border-radius: 10px;
+    /* -ms-transform: translate(-50%, -50%);
+    transform: translate(-450%, 50%) */
+}
+.disability-accommodations {
+  background-color:lightblue;   /* soft gray background */
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.disability-accommodations .section-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #002654; /* Columbia blue navy tone */
+}
+
+.disability-accommodations .subsection-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #002654; /* lighter Columbia blue */
+}
+
+.steps-list {
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+.more-info a {
+  font-weight: bold;
+  color:royalblue;
+  text-decoration: none;
+}
+
+.more-info a:hover {
+  text-decoration: underline;
+}
